@@ -1,0 +1,611 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		735E2BDD279EE838001F4028 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 735E2BDC279EE838001F4028 /* NotificationView.swift */; };
+		735E2BDF279EEA2B001F4028 /* RateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 735E2BDE279EEA2B001F4028 /* RateView.swift */; };
+		735E2BE1279EF50F001F4028 /* CallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 735E2BE0279EF50F001F4028 /* CallView.swift */; };
+		735E2BE3279EF876001F4028 /* DriverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 735E2BE2279EF876001F4028 /* DriverView.swift */; };
+		739B818D279EFD89008A0650 /* PaymentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 739B818C279EFD89008A0650 /* PaymentView.swift */; };
+		73B57A4127954AA00061D398 /* MaketWatch WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 73B57A4027954AA00061D398 /* MaketWatch WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		73B57A4627954AA20061D398 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73B57A4527954AA20061D398 /* Assets.xcassets */; };
+		73B57A4C27954AA20061D398 /* MaketWatch WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 73B57A4B27954AA20061D398 /* MaketWatch WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		73B57A5127954AA20061D398 /* MaketWatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B57A5027954AA20061D398 /* MaketWatchApp.swift */; };
+		73B57A5327954AA20061D398 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B57A5227954AA20061D398 /* ContentView.swift */; };
+		73B57A5527954AA20061D398 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B57A5427954AA20061D398 /* NotificationController.swift */; };
+		73B57A5927954AA20061D398 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B57A5827954AA20061D398 /* ComplicationController.swift */; };
+		73B57A5B27954AA30061D398 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73B57A5A27954AA30061D398 /* Assets.xcassets */; };
+		73B57A5E27954AA30061D398 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73B57A5D27954AA30061D398 /* Preview Assets.xcassets */; };
+		73B57A6F279551540061D398 /* PageTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B57A6E279551540061D398 /* PageTwo.swift */; };
+		73E91E8D27957C6A00D2E881 /* LnchScr.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E91E8C27957C6A00D2E881 /* LnchScr.swift */; };
+		73E91E8F27957DF100D2E881 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E91E8E27957DF100D2E881 /* Menu.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		73B57A4227954AA00061D398 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 73B57A3627954AA00061D398 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 73B57A3F27954AA00061D398;
+			remoteInfo = "MaketWatch WatchKit App";
+		};
+		73B57A4D27954AA20061D398 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 73B57A3627954AA00061D398 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 73B57A4A27954AA20061D398;
+			remoteInfo = "MaketWatch WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		73B57A6627954AA30061D398 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				73B57A4C27954AA20061D398 /* MaketWatch WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73B57A6A27954AA30061D398 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				73B57A4127954AA00061D398 /* MaketWatch WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		735E2BDC279EE838001F4028 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		735E2BDE279EEA2B001F4028 /* RateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateView.swift; sourceTree = "<group>"; };
+		735E2BE0279EF50F001F4028 /* CallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallView.swift; sourceTree = "<group>"; };
+		735E2BE2279EF876001F4028 /* DriverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverView.swift; sourceTree = "<group>"; };
+		739B818C279EFD89008A0650 /* PaymentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentView.swift; sourceTree = "<group>"; };
+		73B57A3C27954AA00061D398 /* MaketWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MaketWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		73B57A4027954AA00061D398 /* MaketWatch WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MaketWatch WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		73B57A4527954AA20061D398 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		73B57A4B27954AA20061D398 /* MaketWatch WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "MaketWatch WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		73B57A5027954AA20061D398 /* MaketWatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaketWatchApp.swift; sourceTree = "<group>"; };
+		73B57A5227954AA20061D398 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		73B57A5427954AA20061D398 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		73B57A5827954AA20061D398 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		73B57A5A27954AA30061D398 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		73B57A5D27954AA30061D398 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		73B57A5F27954AA30061D398 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		73B57A6027954AA30061D398 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		73B57A6E279551540061D398 /* PageTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageTwo.swift; sourceTree = "<group>"; };
+		73E91E8C27957C6A00D2E881 /* LnchScr.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LnchScr.swift; sourceTree = "<group>"; };
+		73E91E8E27957DF100D2E881 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		73B57A4827954AA20061D398 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		73B57A3527954AA00061D398 = {
+			isa = PBXGroup;
+			children = (
+				73B57A4427954AA00061D398 /* MaketWatch WatchKit App */,
+				73B57A4F27954AA20061D398 /* MaketWatch WatchKit Extension */,
+				73B57A3D27954AA00061D398 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		73B57A3D27954AA00061D398 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				73B57A3C27954AA00061D398 /* MaketWatch.app */,
+				73B57A4027954AA00061D398 /* MaketWatch WatchKit App.app */,
+				73B57A4B27954AA20061D398 /* MaketWatch WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		73B57A4427954AA00061D398 /* MaketWatch WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				73B57A4527954AA20061D398 /* Assets.xcassets */,
+			);
+			path = "MaketWatch WatchKit App";
+			sourceTree = "<group>";
+		};
+		73B57A4F27954AA20061D398 /* MaketWatch WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				73B57A5027954AA20061D398 /* MaketWatchApp.swift */,
+				73E91E8C27957C6A00D2E881 /* LnchScr.swift */,
+				73E91E8E27957DF100D2E881 /* Menu.swift */,
+				73B57A5227954AA20061D398 /* ContentView.swift */,
+				735E2BE0279EF50F001F4028 /* CallView.swift */,
+				73B57A6E279551540061D398 /* PageTwo.swift */,
+				73B57A5427954AA20061D398 /* NotificationController.swift */,
+				735E2BDC279EE838001F4028 /* NotificationView.swift */,
+				73B57A5827954AA20061D398 /* ComplicationController.swift */,
+				735E2BDE279EEA2B001F4028 /* RateView.swift */,
+				735E2BE2279EF876001F4028 /* DriverView.swift */,
+				739B818C279EFD89008A0650 /* PaymentView.swift */,
+				73B57A5A27954AA30061D398 /* Assets.xcassets */,
+				73B57A5F27954AA30061D398 /* Info.plist */,
+				73B57A6027954AA30061D398 /* PushNotificationPayload.apns */,
+				73B57A5C27954AA30061D398 /* Preview Content */,
+			);
+			path = "MaketWatch WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		73B57A5C27954AA30061D398 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				73B57A5D27954AA30061D398 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		73B57A3B27954AA00061D398 /* MaketWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 73B57A6B27954AA30061D398 /* Build configuration list for PBXNativeTarget "MaketWatch" */;
+			buildPhases = (
+				73B57A3A27954AA00061D398 /* Resources */,
+				73B57A6A27954AA30061D398 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				73B57A4327954AA00061D398 /* PBXTargetDependency */,
+			);
+			name = MaketWatch;
+			productName = MaketWatch;
+			productReference = 73B57A3C27954AA00061D398 /* MaketWatch.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		73B57A3F27954AA00061D398 /* MaketWatch WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 73B57A6727954AA30061D398 /* Build configuration list for PBXNativeTarget "MaketWatch WatchKit App" */;
+			buildPhases = (
+				73B57A3E27954AA00061D398 /* Resources */,
+				73B57A6627954AA30061D398 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				73B57A4E27954AA20061D398 /* PBXTargetDependency */,
+			);
+			name = "MaketWatch WatchKit App";
+			productName = "MaketWatch WatchKit App";
+			productReference = 73B57A4027954AA00061D398 /* MaketWatch WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		73B57A4A27954AA20061D398 /* MaketWatch WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 73B57A6327954AA30061D398 /* Build configuration list for PBXNativeTarget "MaketWatch WatchKit Extension" */;
+			buildPhases = (
+				73B57A4727954AA20061D398 /* Sources */,
+				73B57A4827954AA20061D398 /* Frameworks */,
+				73B57A4927954AA20061D398 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MaketWatch WatchKit Extension";
+			productName = "MaketWatch WatchKit Extension";
+			productReference = 73B57A4B27954AA20061D398 /* MaketWatch WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		73B57A3627954AA00061D398 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					73B57A3B27954AA00061D398 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					73B57A3F27954AA00061D398 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					73B57A4A27954AA20061D398 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 73B57A3927954AA00061D398 /* Build configuration list for PBXProject "MaketWatch" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 73B57A3527954AA00061D398;
+			productRefGroup = 73B57A3D27954AA00061D398 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				73B57A3B27954AA00061D398 /* MaketWatch */,
+				73B57A3F27954AA00061D398 /* MaketWatch WatchKit App */,
+				73B57A4A27954AA20061D398 /* MaketWatch WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		73B57A3A27954AA00061D398 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73B57A3E27954AA00061D398 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73B57A4627954AA20061D398 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73B57A4927954AA20061D398 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73B57A5E27954AA30061D398 /* Preview Assets.xcassets in Resources */,
+				73B57A5B27954AA30061D398 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		73B57A4727954AA20061D398 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73B57A5527954AA20061D398 /* NotificationController.swift in Sources */,
+				739B818D279EFD89008A0650 /* PaymentView.swift in Sources */,
+				73B57A6F279551540061D398 /* PageTwo.swift in Sources */,
+				735E2BDF279EEA2B001F4028 /* RateView.swift in Sources */,
+				735E2BE3279EF876001F4028 /* DriverView.swift in Sources */,
+				73E91E8F27957DF100D2E881 /* Menu.swift in Sources */,
+				735E2BDD279EE838001F4028 /* NotificationView.swift in Sources */,
+				73E91E8D27957C6A00D2E881 /* LnchScr.swift in Sources */,
+				73B57A5327954AA20061D398 /* ContentView.swift in Sources */,
+				73B57A5927954AA20061D398 /* ComplicationController.swift in Sources */,
+				735E2BE1279EF50F001F4028 /* CallView.swift in Sources */,
+				73B57A5127954AA20061D398 /* MaketWatchApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		73B57A4327954AA00061D398 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 73B57A3F27954AA00061D398 /* MaketWatch WatchKit App */;
+			targetProxy = 73B57A4227954AA00061D398 /* PBXContainerItemProxy */;
+		};
+		73B57A4E27954AA20061D398 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 73B57A4A27954AA20061D398 /* MaketWatch WatchKit Extension */;
+			targetProxy = 73B57A4D27954AA20061D398 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		73B57A6127954AA30061D398 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		73B57A6227954AA30061D398 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		73B57A6427954AA30061D398 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MaketWatch WatchKit Extension/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "MaketWatch WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "MaketWatch WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = xz.MaketWatch.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.3;
+			};
+			name = Debug;
+		};
+		73B57A6527954AA30061D398 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MaketWatch WatchKit Extension/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "MaketWatch WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "MaketWatch WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = xz.MaketWatch.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.3;
+			};
+			name = Release;
+		};
+		73B57A6827954AA30061D398 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = MaketWatch_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "MaketWatch WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = xz.MaketWatch.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.3;
+			};
+			name = Debug;
+		};
+		73B57A6927954AA30061D398 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = MaketWatch_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "MaketWatch WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = xz.MaketWatch.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.3;
+			};
+			name = Release;
+		};
+		73B57A6C27954AA30061D398 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = xz.MaketWatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		73B57A6D27954AA30061D398 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = xz.MaketWatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		73B57A3927954AA00061D398 /* Build configuration list for PBXProject "MaketWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73B57A6127954AA30061D398 /* Debug */,
+				73B57A6227954AA30061D398 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		73B57A6327954AA30061D398 /* Build configuration list for PBXNativeTarget "MaketWatch WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73B57A6427954AA30061D398 /* Debug */,
+				73B57A6527954AA30061D398 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		73B57A6727954AA30061D398 /* Build configuration list for PBXNativeTarget "MaketWatch WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73B57A6827954AA30061D398 /* Debug */,
+				73B57A6927954AA30061D398 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		73B57A6B27954AA30061D398 /* Build configuration list for PBXNativeTarget "MaketWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73B57A6C27954AA30061D398 /* Debug */,
+				73B57A6D27954AA30061D398 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 73B57A3627954AA00061D398 /* Project object */;
+}
